@@ -28,9 +28,7 @@ if ($headers === false) {
 </head>
 <body>
     <header class="header">
-        <!-- Логотип. На локальном сервере XAMPP косую черту '/' лучше убрать (сделать просто "logo.png"), 
-             чтобы картинка искалась внутри папки лабы, а не в корне диска htdocs -->
-        <img src="/logo.png" alt="logo" class="logo">
+        <img src="logo.png" alt="logo" class="logo">
         <div class="title">Результат работы функции get_headers</div>
         <div class="header-spacer"></div>
     </header>

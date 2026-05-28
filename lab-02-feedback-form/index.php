@@ -19,7 +19,7 @@
             <h1>Форма обратной связи</h1>
 
             <!-- Тег form собирает данные. method="POST" отправляет их скрытно в теле запроса -->
-            <form class="form" action="https://httpbin.org" method="POST">
+            <form class="form" action="https://httpbin.org/post" method="POST">
                 
                 <!-- Поле ввода имени -->
                 <label class="form-field">
